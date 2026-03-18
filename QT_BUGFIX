@@ -1,0 +1,15 @@
+Die empfohlene Qt-Version ist 6.10.2.
+
+Auf manchen Systemen funktioniert die Einrichtung automatisch, auf anderen leider nicht. Falls Sie CLion neu installieren oder dabei Probleme auftreten, öffnen Sie 
+bitte das Hamburger-Menü und gehen Sie zu:
+
+File / Settings / Build, Execution, Deployment / CMake
+
+Tragen Sie dort bei den CMake-Optionen bitte Folgendes ein:
+
+-DCMAKE_PREFIX_PATH=C:/Qt/6.10.2/mingw_64
+
+Falls Sie bereits eine andere Qt-Version installiert haben, wählen Sie bitte anstelle von 6.10.2 Ihre installierte Version aus.
+Ich möchte noch einmal klarstellen, dass es sich hierbei nicht um einen Fehler unsererseits handelt, sondern dass dies von der verwendeten IDE sowie der jeweiligen 
+CMake-Version und dem Betriebssystem abhängt und wir laut den Anforderungen davon ausgehen dass sie denn Quelltext des Projektes wollen statt der fertigen 
+lauffähigen EXE.
