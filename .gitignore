@@ -1,10 +1,5 @@
 .idea/
-cmake-build-debug/
-cmake-build-*/
-*.exe
-*.dll
 CMakeCache.txt
-CMakeFiles/
 build.ninja
 .ninja_deps
 .ninja_log
