@@ -1,0 +1,13 @@
+.idea/
+cmake-build-debug/
+cmake-build-*/
+*.exe
+*.dll
+CMakeCache.txt
+CMakeFiles/
+build.ninja
+.ninja_deps
+.ninja_log
+cmake_install.cmake
+compile_commands.json
+Testing/
